@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside Element</title>
+    <style>
+        aside{
+            width: 250px;
+            text-align: center;
+            margin: 0px;
+            padding: 0px; 
+            background-color: gray; 
+            float: left;
+            border-radius: 20px;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            display: block;
+            background-color: gray;
+            padding: 20px;
+        }
+        ul li a:hover{
+            background-color: gainsboro;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+        ul li a.active{
+            background-color: green;
+            border-radius: 20px;
+            color: white;
+            font-size: 30px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <!--Side Bar-->
+    <aside>
+        <ul>
+            <li>
+                <a href="#" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </aside>
+</body>
+</html>

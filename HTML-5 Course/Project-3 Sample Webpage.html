@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website-Project</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+        header, footer{
+            background-color: navy;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer{
+            line-height: 10px;
+        }
+        /*Main Navigation*/
+        nav{
+            background-color:#89C4F4;
+            padding: 10px;
+        }
+       nav a{
+            text-decoration: none;
+            padding: 10px;
+            color: navy;
+            margin: 0px;
+        }
+       nav a:hover{
+            background-color:navy;
+            color: white;
+        }
+        nav a.active{
+            background-color:navy;
+            color: white
+        }
+        /*Side Bar*/
+        aside{
+            float: left;
+            width: 200px;
+            text-align: center;
+            height: 377px;
+            overflow-y: scroll;
+            
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 15px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: navy;
+            color: white;
+        }
+        /*Main Section*/
+        section{
+            margin-left: 200px;
+            border-left: 2px solid grey;
+            padding: 10px;
+        }
+        details{
+            background-color: navy;
+            margin:5px;
+            padding: 10px;
+            color: white;
+            border-radius: 15px;
+        }
+        article{
+            background-color: lightskyblue;
+            color: black;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        summary{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <!--Main Header-->
+    <header>
+        <h2>Web Technologies</h2>
+        <p>The Smart Way of Learning</p>
+    </header>
+    <!--Main Navigation-->
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!--side bar-->
+    <aside>
+        <ul>
+            <li>
+                <a href="#">HTML</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">JavaScript</a>
+            </li>
+            <li>
+                <a href="#">jQuery</a>
+            </li>
+            <li>
+                <a href="#">Bootstrap</a>
+            </li>
+            <li>
+                <a href="#">React JS</a>
+            </li>
+            <li>
+                <a href="#">Angular JS</a>
+            </li>
+            <li>
+                <a href="#">Vue JS</a>
+            </li>
+        </ul>
+    </aside>
+            <!--Main Section-->
+            <section>
+                <!--details-->
+                <details>
+                    <summary>HTML</summary>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, commodi, dolor vel porro accusantium tempora id nobis reprehenderit optio ab aliquid! Pariatur doloremque at soluta natus quos, veniam distinctio? Et!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>CSS</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>JavaScript</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>jQuery</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>Bootstrap</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>React JS</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>Angular JS</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+                <details>
+                    <summary>Vue JS</summary>
+                    <article>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat necessitatibus fuga facere fugit perferendis dolore aut saepe vel earum aliquam, minima veniam quas beatae aperiam provident expedita, nisi ipsum repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus magnam modi amet nam vero. Laboriosam odit cupiditate dolore laudantium vel labore numquam ullam. Earum velit qui voluptates corporis ratione.</p>
+                    </article>
+                </details>
+            </section>
+            <footer>
+                <h2>Copyright &copy; 2020 , Web Technologies</h2>
+                <p>All Rights Reserved</p>
+                <small>Developed and Maintained by Vijay</small>
+            </footer>
+</body>
+</html>

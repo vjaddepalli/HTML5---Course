@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <style>
+        div{
+            background-color: cadetblue;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 15px;
+            margin: 10px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!--Form with Label & Input Tags-->
+    <div>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <!--Form With Table -->
+    <div>
+        <h1>Table Form Example</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Username</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <!--Select and Option-->
+    <div>
+        <label for="select">Select Course</label>
+        <select id="select">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Bootstrap</option>
+            <option>Jquery</option>
+            <option>React Js</option>
+        </select>
+    </div>
+    <!--Text area-->
+    <div>
+        <label for="textarea">Enter Your Messae</label>
+        <textarea cols="50" rows="5" id="textarea"></textarea>
+    </div>
+    <!--Datalist-->
+    <div>
+        <label>Select Technology</label>
+        <input list="datalist" name="tech">
+        <datalist id="datalist">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JavaScript"></option>
+            <option value="React"></option>
+            <option value="node"></option>
+        </datalist>
+    </div>
+</body>
+</html>
